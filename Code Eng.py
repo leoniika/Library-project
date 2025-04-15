@@ -137,7 +137,7 @@ while True:
 |For seeing all infos in one place you can enter "all info"           |
 |---------------------------------------------------------------------|\n''')
 
-                while True:
+                while found_book == True:
                     ShowBookInfo_command = input('|What do you want to know about this book?')
                     if ShowBookInfo_command.lower() == 'summary':   #خلاصه
                         summary = book.get_summary()
@@ -174,7 +174,7 @@ while True:
                         print('|',book.get_genre(),'\n')
                     elif ShowBookInfo_command.lower() == 'all info':   #توضیحات کامل
                         print('|',book.full_info(),'\n')
-                    elif ShowBookInfo_command.lower() == 'quit':
+                    elif ShowBookInfo_command.lower() == 'quit' or ShowBookInfo_command.lower() == 'back':
                         print('''|Exiting from "Book-Info" menu.'                             |
 |---------------------------------------------------------------------|\n''')
                         break
