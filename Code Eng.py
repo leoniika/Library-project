@@ -122,7 +122,8 @@ while True:
 
     elif Command.lower() == 'book info':   #showbookinfo 
         print('''|---------------------------------------------------------------------|
-|  Welcome to the *Book-Info* menu:\nTo see all commands enter menu  .|
+|                  Welcome to the *Book-Info* menu:                   |
+|                  To see all commands enter menu                     |
 |                      ************************                       |''')
         title = input('|First please enter title of the book: ')
         title = title.title()
