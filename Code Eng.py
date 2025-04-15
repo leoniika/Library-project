@@ -27,8 +27,10 @@ while True:
         continue
 
     elif Command.lower() == 'about':    #bookstore__repr__
-        print('''/                                                                      \
-|Welcome to Nazanin Bookstore. Thanks for visitng us for purchasing book|
+        print('''|---------------------------------------------------------------------|
+/                                                                      \
+|         Welcome to Nazanin Bookstore.           |
+|   Thanks for visitng us for purchasing book   |
 \                                                                       /
 |---------------------------------------------------------------------|''')
     
