@@ -1,0 +1,1 @@
+This repository contains "Book", "Bookstore", and "Code" files. "Book" is a Python class that represents book objects. "Bookstore" is a class that gets its information from the "Book" file, and "Code" is the main code that gets its information from the "Bookstore" file and interacts with 
