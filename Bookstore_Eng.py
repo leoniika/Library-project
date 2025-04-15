@@ -151,8 +151,3 @@ class Bookstore:
 |{"-"*69}|'''
                 report.write(text)
         print('Report file created. you can check your print receipt there.')
-        
-
-
-
-
